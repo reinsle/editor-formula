@@ -1,0 +1,10 @@
+{% set editor = salt['grains.filter_by']({
+    'Debian': {
+        'default_vim_path': '/usr/bin/vim.basic',
+    },
+    'RedHat': {
+    },
+    'Arch': {
+    },
+}, merge=salt['pillar.get']('editor:lookup')) %}
+
