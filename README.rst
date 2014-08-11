@@ -16,5 +16,25 @@ Available states
 ``editor``
 ----------
 
-Installs editors
+Includes nano and vim and so installs editors vim and nano
+
+``editor.nano``
+----------
+
+Installs nano editor 
+
+``editor.nano.default``
+----------
+
+Sets nano as default system editor
+
+``editor.vim``
+----------
+
+Installs vim editor and add default vimrc
+
+``editor.vim.default``
+----------
+
+Sets vim.basic as default system editor
 
